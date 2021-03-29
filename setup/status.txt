@@ -1,0 +1,3 @@
+Ginnie White
+
+I have Kali/Virtual Box up and running on my computer (Macbook with an intel processor). Download went fine and I also currently have Metasploitable too (was Mike's test dummy for setting these up). 
