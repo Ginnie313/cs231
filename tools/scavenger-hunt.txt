@@ -1,8 +1,19 @@
 1. Computer's IP address: 137.22.165.83 (found with ifconfig)
-2. Ping the hostname. ping eduroam-165-83.dyn.carleton.edu gives me something like 64 bytes from 137.22.165.83: icmp_seq=0 ttl=64 time=0.091 ms, for instance
-3. nslookup 137.22.165.83 gets me my hostname of eduroam-165-83.dyn.carleton.edu 
-4. 
-5.
-6.
-7. curl -o test http:/www.google.com/ gets you the Google site and saves it into the working directory with the name test.
-8.
+
+2. Ping the hostname. ping eduroam-165-83.dyn.carleton.edu gives me something
+like 64 bytes from 137.22.165.83: icmp_seq=0 ttl=64 time=0.091 ms, for instance
+
+3. nslookup 137.22.165.83 gets me my hostname of eduroam-165-83.dyn.carleton.edu
+
+4. I used scp /home/kali/Desktop/sample.txt whiteg@mantis.carleton.edu:~/Desktop
+to move sample.text from my Kali desktop to my Mantis one
+
+5. I used nc -z 137.22.165.83 8000 to check port 8000 specifically
+
+6. I used nc -z 137.22.165.83 20-10000 to check ports in range 20-10000, but
+you can change the range
+
+7. curl -o test http:/www.google.com/ gets you the Google site and saves it into
+the working directory with the name test.
+
+8. curl --verbose http:/www.google.com/ (or just - v I think) gets you the headers
