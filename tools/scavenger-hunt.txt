@@ -1,3 +1,5 @@
+Ginnie White
+
 1. Computer's IP address: 137.22.165.83 (found with ifconfig). I use a mac so all
 my commands are to use on the Mac OS.
 
